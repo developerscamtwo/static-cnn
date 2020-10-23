@@ -23,7 +23,7 @@ if(localStorage){
                                 <li>Na edição da guia TISS, o sistema mostra o número do lote onde ela se encontra</li>
                             </ul>
                             <div class="space-10"></div>                  
-                            <a class="btn btn-link btn-block" target="_blank" href="https://clinicanasnuvens.movidesk.com/kb/article/147658/4-124-25-de-setembro-de-2020">Saiba mais</a>
+                            <a class="btn btn-link btn-block" target="_blank" href="https://clinicanasnuvens.movidesk.com/kb/article/152801/4-125-26-de-outubro-de-2020">Saiba mais</a>
                         </div>
 					</div>
 				</div>	
