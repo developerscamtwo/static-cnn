@@ -1,6 +1,6 @@
 if(localStorage){
-	localStorage.removeItem('cnn-sprint124');
-	const lido = localStorage.getItem('cnn-sprint125');
+	localStorage.removeItem('cnn-sprint125');
+	const lido = localStorage.getItem('cnn-sprint127');
 	if(!lido){
 		$('body').append(`<div id="md-message" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-md" role="document">
@@ -12,25 +12,27 @@ if(localStorage){
 						</div>
 						<div class="col-sm-7">              
                             <button type="button" class="btn btn-danger pull-right btn-sm" data-dismiss="modal" aria-hidden="true">×</button>
-<div class="space-20"></div>
+<div class="space-15"></div>
                             <h2>Conheça nossas novidades!</h2> 
-                            <div class="space-20"></div>                  
+                            <div class="space-5"></div>                  
                             <ul>
-                                <li>Nova função para clínicas odontológicas: <b>Planos de tratamento</b></li>                   
-                                <li>Inserida data de criação e atualização para regras de comissões</li>
-                                <li>Melhorias na função "Esqueci minha senha" na tela de login</li>
-                                <li>Guias TISS geradas na agenda podem ser acessadas em "detalhes da agenda"</li>
-                                <li>Na edição da guia TISS, o sistema mostra o número do lote onde ela se encontra</li>
+                                <li>Agora é possível ao adicionar um compromisso ao profissional de saúde e repetir ele para demais dias.</li>                   
+                                <li>Criação de dietas para prescrição ao paciente</li>
+                                <li>Guias TISS de solicitação de internação</li>
+                                <li>Adicionado novos métodos de integração para a API</li>
+                                
                             </ul>
-                            <div class="space-10"></div>                  
-                            <a class="btn btn-link btn-block" target="_blank" href="https://clinicanasnuvens.movidesk.com/kb/article/152801/4-125-26-de-outubro-de-2020">Saiba mais</a>
+                            <p>Deseja conhecer estas e demais atualizações que preparamos, clique em Saiba mais!</p>
+                            <div class="space-5"></div>                  
+                            <a class="btn btn-link btn-block" target="_blank" href="https://clinicanasnuvens.movidesk.com/kb/article/160716/4-127-30-de-novembro-de-2020">Saiba mais</a>
                         </div>
+					</div>
 					</div>
 				</div>	
 			</div>
 		</div>
 	</div>`);
 	$('#md-message').modal('show');
-		localStorage.setItem('cnn-sprint125', "lido");
+		localStorage.setItem('cnn-sprint127', "lido");
 	}
 }
