@@ -1,6 +1,6 @@
 if(localStorage){
-	localStorage.removeItem('cnn-sprint127');
-	const lido = localStorage.getItem('cnn-sprint128');
+	localStorage.removeItem('cnn-sprint128');
+	const lido = localStorage.getItem('cnn-sprint129');
 	if(!lido){
 		$('body').append(`<div id="md-message" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-md" role="document">
@@ -16,12 +16,14 @@ if(localStorage){
                             <h2>Conheça nossas novidades!</h2> 
                             <div class="space-20"></div>                  
                             <ul>
-                                <li>Possibilidade de configurar e adicionar pastas padrão aos pacientes</li>                   
-                                <li>Impressão de guia odontológica</li>
+                                <li>Novo módulo para controle de guias e lotes TISS;</li>                   
+                                <li>Melhorias de usabilidade nas guias TISS;</li>
+                                <li>Novo recurso de glosa;</li>
+                                <li>Nova cobrança para convênios;</li>
                             </ul>
-                            <p>Deseja conhecer estas e demais atualizações que preparamos, clique em Saiba mais!</p>
-                            <div class="space-20"></div>                  
-                            <a class="btn btn-link btn-block" target="https://clinicanasnuvens.movidesk.com/kb/article/164431/4-128-17-de-dezembro">Saiba mais</a>
+                            <p>Para conhecer estas e demais atualizações que preparamos, clique em Saiba mais!</p>
+                            <div class="space-18"></div>                  
+                            <a class="btn btn-link btn-block" target="https://clinicanasnuvens.movidesk.com/kb/article/175184/4-129-9-de-fevereiro-2021">Saiba mais</a>
                         </div>
 					</div>
 					</div>
@@ -29,6 +31,6 @@ if(localStorage){
 			</div>
 	</div>`);
 	$('#md-message').modal('show');
-		localStorage.setItem('cnn-sprint128', "lido");
+		localStorage.setItem('cnn-sprint129', "lido");
 	}
 }
