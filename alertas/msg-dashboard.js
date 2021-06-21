@@ -1,6 +1,6 @@
 if(localStorage){
-	localStorage.removeItem('cnn-sprint131');
-	const lido = localStorage.getItem('cnn-sprint132');
+	localStorage.removeItem('cnn-sprint132');
+	const lido = localStorage.getItem('cnn-sprint133');
 	if(!lido){
 		$('body').append(`
 	<div id="md-message" class="modal fade" tabindex="-1" role="dialog">
@@ -17,15 +17,14 @@ if(localStorage){
                             				<h2>Conheça nossas novidades!</h2> 
                            				<div class="space-5"></div>                  
                             				<ul>
-                               					<li>Possibilidade de gerenciar solicitações de autorização para plano de tratamento;</li>                   
-                                				<li>Reestilização visual do sistema e atualização de nomenclaturas utilizadas;</li>
-                                				<li>Novos ícones adicionados e atualizados nos menus do sistema;</li>
-                                				<li>Páginas de filtros de relatórios reordenadas e nomenclaturas revisadas;</li>
-    								<li>Possibilidade de adicionar mais de um supervisor ao aluno na clínica escola.</li>    
+                               					<li>Rastreabilidade pela origem de geração dos faturamentos financeiros;</li>                   
+                                				<li>Pré visualização de imagens e arquivos PDF nas imagens e documentos dos pacientes;</li>
+                                				<li>As permissões e bloqueios foram reordenadas e tiveram uma pesquisa adicionada;</li>
+                                				<li>Lista de espera por profissional</li>  
                             				</ul>
                             				<p>Para conhecer estas e demais atualizações que preparamos, clique em Saiba mais!</p>
                             				<div class="space-2"></div>                  
-                            				<a class="btn btn-link btn-block" target="_blank" href="https://clinicanasnuvens.movidesk.com/kb/article/198597/4132-19-de-maio-de-2021">Saiba mais</a>
+                            				<a class="btn btn-link btn-block" target="_blank" href="https://clinicanasnuvens.movidesk.com/kb/article/209941/4133-__-de-junho-de-2021">Saiba mais</a>
                         			</div>
 					</div>
 				</div>
@@ -33,6 +32,6 @@ if(localStorage){
 		</div>
 	</div>`);
 	$('#md-message').modal('show');
-		localStorage.setItem('cnn-sprint132', "lido");
+		localStorage.setItem('cnn-sprint133', "lido");
 	}
 }
